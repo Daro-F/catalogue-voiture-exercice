@@ -72,7 +72,7 @@ fetch("./luxdrive_site_data_full.json")
         let brandsHTML = "<div class='d-flex justify-content-center align-items-center flex-nowrap gap-4 style='white-space: nowrap;'>";
         for (let m = 0; m < brands.length; m++) {
             brandsHTML += "<div class='card bg-transparent text-center p-3' style='width: 200px; flex: 0 0 auto;'>";
-            brandsHTML += "<a href='catalogue.html'><img src=./'" + brands[m].logo + "' alt='" + brands[m].name + "' class='img-fluid' style='max-height: 100px; object-fit: contain;'></a>";
+            brandsHTML += "<a href='catalogue.html'><img src=.'" + brands[m].logo + "' alt='" + brands[m].name + "' class='img-fluid' style='max-height: 100px; object-fit: contain;'></a>";
             brandsHTML += "</div>";
         }
         brandsHTML += "</div>";
