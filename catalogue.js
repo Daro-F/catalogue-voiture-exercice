@@ -1,4 +1,4 @@
-fetch("/luxdrive_site_data_full.json") // Récupération du .JSON
+fetch("./luxdrive_site_data_full.json") // Récupération du .JSON
     .then(function(response) {
         if (!response.ok) {
             throw new Error("Erreur : le fichier JSON n'est pas chargé"); // Si on ne le trouve pas on affiche "Erreur : le fichier JSON n'est pas chargé"
